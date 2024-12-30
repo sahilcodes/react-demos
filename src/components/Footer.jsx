@@ -1,6 +1,6 @@
 const Footer = () => {
   return <footer>
-    <p>&copy; 2025 My Website</p>
+    <p>&copy; 2025, My Website</p>
   </footer>;
 };
 
