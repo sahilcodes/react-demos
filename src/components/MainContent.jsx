@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Message from "./Message";
 
 const MainContent = () => {
   const [advice, setAdvice] = useState("");
@@ -21,9 +22,7 @@ const MainContent = () => {
       <h2>{advice}</h2>
       <button onClick={getAdvice}>Get another advice</button>
 
-      <p>
-        You have read <strong>{count}</strong> pieces of advice.
-      </p>
+      <Message count={count} />
     </main>
   );
 };
